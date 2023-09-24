@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042E1E932ABE747000C7DB0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E1E922ABE747000C7DB0F /* AppDelegate.swift */; };
+		042E1E952ABE747000C7DB0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E1E942ABE747000C7DB0F /* SceneDelegate.swift */; };
+		042E1E972ABE747000C7DB0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E1E962ABE747000C7DB0F /* ViewController.swift */; };
+		042E1E9A2ABE747000C7DB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042E1E982ABE747000C7DB0F /* Main.storyboard */; };
+		042E1E9C2ABE747200C7DB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042E1E9B2ABE747200C7DB0F /* Assets.xcassets */; };
+		042E1E9F2ABE747200C7DB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042E1E9D2ABE747200C7DB0F /* LaunchScreen.storyboard */; };
+		042E1EAA2ABE747300C7DB0F /* AmericanAirlinesUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E1EA92ABE747300C7DB0F /* AmericanAirlinesUIKitTests.swift */; };
+		042E1EB42ABE747300C7DB0F /* AmericanAirlinesUIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E1EB32ABE747300C7DB0F /* AmericanAirlinesUIKitUITests.swift */; };
+		042E1EB62ABE747300C7DB0F /* AmericanAirlinesUIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E1EB52ABE747300C7DB0F /* AmericanAirlinesUIKitUITestsLaunchTests.swift */; };
+		042E1EC82ABE766500C7DB0F /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E1EC72ABE766500C7DB0F /* SearchService.swift */; };
+		042E1ECA2ABE76AC00C7DB0F /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E1EC92ABE76AC00C7DB0F /* SearchTableViewCell.swift */; };
+		042E1ECC2ABE7B1600C7DB0F /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E1ECB2ABE7B1600C7DB0F /* Search.swift */; };
+		042E1ECE2ABE9CA300C7DB0F /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E1ECD2ABE9CA300C7DB0F /* SearchViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042E1EA62ABE747300C7DB0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042E1E872ABE747000C7DB0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042E1E8E2ABE747000C7DB0F;
+			remoteInfo = AmericanAirlinesUIKit;
+		};
+		042E1EB02ABE747300C7DB0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042E1E872ABE747000C7DB0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042E1E8E2ABE747000C7DB0F;
+			remoteInfo = AmericanAirlinesUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042E1E8F2ABE747000C7DB0F /* AmericanAirlinesUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmericanAirlinesUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042E1E922ABE747000C7DB0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042E1E942ABE747000C7DB0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		042E1E962ABE747000C7DB0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		042E1E992ABE747000C7DB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042E1E9B2ABE747200C7DB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042E1E9E2ABE747200C7DB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042E1EA02ABE747200C7DB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042E1EA52ABE747300C7DB0F /* AmericanAirlinesUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmericanAirlinesUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042E1EA92ABE747300C7DB0F /* AmericanAirlinesUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanAirlinesUIKitTests.swift; sourceTree = "<group>"; };
+		042E1EAF2ABE747300C7DB0F /* AmericanAirlinesUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmericanAirlinesUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042E1EB32ABE747300C7DB0F /* AmericanAirlinesUIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanAirlinesUIKitUITests.swift; sourceTree = "<group>"; };
+		042E1EB52ABE747300C7DB0F /* AmericanAirlinesUIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanAirlinesUIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		042E1EC72ABE766500C7DB0F /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		042E1EC92ABE76AC00C7DB0F /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		042E1ECB2ABE7B1600C7DB0F /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		042E1ECD2ABE9CA300C7DB0F /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042E1E8C2ABE747000C7DB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042E1EA22ABE747300C7DB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042E1EAC2ABE747300C7DB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042E1E862ABE747000C7DB0F = {
+			isa = PBXGroup;
+			children = (
+				042E1E912ABE747000C7DB0F /* AmericanAirlinesUIKit */,
+				042E1EA82ABE747300C7DB0F /* AmericanAirlinesUIKitTests */,
+				042E1EB22ABE747300C7DB0F /* AmericanAirlinesUIKitUITests */,
+				042E1E902ABE747000C7DB0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042E1E902ABE747000C7DB0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042E1E8F2ABE747000C7DB0F /* AmericanAirlinesUIKit.app */,
+				042E1EA52ABE747300C7DB0F /* AmericanAirlinesUIKitTests.xctest */,
+				042E1EAF2ABE747300C7DB0F /* AmericanAirlinesUIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042E1E912ABE747000C7DB0F /* AmericanAirlinesUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				042E1EC22ABE75C300C7DB0F /* App */,
+				042E1EC62ABE761F00C7DB0F /* Service */,
+				042E1EC32ABE75D500C7DB0F /* Model */,
+				042E1E982ABE747000C7DB0F /* Main.storyboard */,
+				042E1E9B2ABE747200C7DB0F /* Assets.xcassets */,
+				042E1E9D2ABE747200C7DB0F /* LaunchScreen.storyboard */,
+				042E1EA02ABE747200C7DB0F /* Info.plist */,
+			);
+			path = AmericanAirlinesUIKit;
+			sourceTree = "<group>";
+		};
+		042E1EA82ABE747300C7DB0F /* AmericanAirlinesUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				042E1EA92ABE747300C7DB0F /* AmericanAirlinesUIKitTests.swift */,
+			);
+			path = AmericanAirlinesUIKitTests;
+			sourceTree = "<group>";
+		};
+		042E1EB22ABE747300C7DB0F /* AmericanAirlinesUIKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				042E1EB32ABE747300C7DB0F /* AmericanAirlinesUIKitUITests.swift */,
+				042E1EB52ABE747300C7DB0F /* AmericanAirlinesUIKitUITestsLaunchTests.swift */,
+			);
+			path = AmericanAirlinesUIKitUITests;
+			sourceTree = "<group>";
+		};
+		042E1EC22ABE75C300C7DB0F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				042E1E942ABE747000C7DB0F /* SceneDelegate.swift */,
+				042E1E922ABE747000C7DB0F /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		042E1EC32ABE75D500C7DB0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				042E1ECB2ABE7B1600C7DB0F /* Search.swift */,
+				042E1EC42ABE75F700C7DB0F /* View */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		042E1EC42ABE75F700C7DB0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				042E1E962ABE747000C7DB0F /* ViewController.swift */,
+				042E1EC92ABE76AC00C7DB0F /* SearchTableViewCell.swift */,
+				042E1EC52ABE760A00C7DB0F /* ViewModel */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		042E1EC52ABE760A00C7DB0F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				042E1ECD2ABE9CA300C7DB0F /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		042E1EC62ABE761F00C7DB0F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				042E1EC72ABE766500C7DB0F /* SearchService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042E1E8E2ABE747000C7DB0F /* AmericanAirlinesUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042E1EB92ABE747300C7DB0F /* Build configuration list for PBXNativeTarget "AmericanAirlinesUIKit" */;
+			buildPhases = (
+				042E1E8B2ABE747000C7DB0F /* Sources */,
+				042E1E8C2ABE747000C7DB0F /* Frameworks */,
+				042E1E8D2ABE747000C7DB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmericanAirlinesUIKit;
+			productName = AmericanAirlinesUIKit;
+			productReference = 042E1E8F2ABE747000C7DB0F /* AmericanAirlinesUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042E1EA42ABE747300C7DB0F /* AmericanAirlinesUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042E1EBC2ABE747300C7DB0F /* Build configuration list for PBXNativeTarget "AmericanAirlinesUIKitTests" */;
+			buildPhases = (
+				042E1EA12ABE747300C7DB0F /* Sources */,
+				042E1EA22ABE747300C7DB0F /* Frameworks */,
+				042E1EA32ABE747300C7DB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042E1EA72ABE747300C7DB0F /* PBXTargetDependency */,
+			);
+			name = AmericanAirlinesUIKitTests;
+			productName = AmericanAirlinesUIKitTests;
+			productReference = 042E1EA52ABE747300C7DB0F /* AmericanAirlinesUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		042E1EAE2ABE747300C7DB0F /* AmericanAirlinesUIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042E1EBF2ABE747300C7DB0F /* Build configuration list for PBXNativeTarget "AmericanAirlinesUIKitUITests" */;
+			buildPhases = (
+				042E1EAB2ABE747300C7DB0F /* Sources */,
+				042E1EAC2ABE747300C7DB0F /* Frameworks */,
+				042E1EAD2ABE747300C7DB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042E1EB12ABE747300C7DB0F /* PBXTargetDependency */,
+			);
+			name = AmericanAirlinesUIKitUITests;
+			productName = AmericanAirlinesUIKitUITests;
+			productReference = 042E1EAF2ABE747300C7DB0F /* AmericanAirlinesUIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042E1E872ABE747000C7DB0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					042E1E8E2ABE747000C7DB0F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					042E1EA42ABE747300C7DB0F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 042E1E8E2ABE747000C7DB0F;
+					};
+					042E1EAE2ABE747300C7DB0F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 042E1E8E2ABE747000C7DB0F;
+					};
+				};
+			};
+			buildConfigurationList = 042E1E8A2ABE747000C7DB0F /* Build configuration list for PBXProject "AmericanAirlinesUIKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042E1E862ABE747000C7DB0F;
+			productRefGroup = 042E1E902ABE747000C7DB0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042E1E8E2ABE747000C7DB0F /* AmericanAirlinesUIKit */,
+				042E1EA42ABE747300C7DB0F /* AmericanAirlinesUIKitTests */,
+				042E1EAE2ABE747300C7DB0F /* AmericanAirlinesUIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042E1E8D2ABE747000C7DB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042E1E9F2ABE747200C7DB0F /* LaunchScreen.storyboard in Resources */,
+				042E1E9C2ABE747200C7DB0F /* Assets.xcassets in Resources */,
+				042E1E9A2ABE747000C7DB0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042E1EA32ABE747300C7DB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042E1EAD2ABE747300C7DB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042E1E8B2ABE747000C7DB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042E1E972ABE747000C7DB0F /* ViewController.swift in Sources */,
+				042E1ECE2ABE9CA300C7DB0F /* SearchViewModel.swift in Sources */,
+				042E1E932ABE747000C7DB0F /* AppDelegate.swift in Sources */,
+				042E1E952ABE747000C7DB0F /* SceneDelegate.swift in Sources */,
+				042E1ECC2ABE7B1600C7DB0F /* Search.swift in Sources */,
+				042E1EC82ABE766500C7DB0F /* SearchService.swift in Sources */,
+				042E1ECA2ABE76AC00C7DB0F /* SearchTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042E1EA12ABE747300C7DB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042E1EAA2ABE747300C7DB0F /* AmericanAirlinesUIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042E1EAB2ABE747300C7DB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042E1EB62ABE747300C7DB0F /* AmericanAirlinesUIKitUITestsLaunchTests.swift in Sources */,
+				042E1EB42ABE747300C7DB0F /* AmericanAirlinesUIKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042E1EA72ABE747300C7DB0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042E1E8E2ABE747000C7DB0F /* AmericanAirlinesUIKit */;
+			targetProxy = 042E1EA62ABE747300C7DB0F /* PBXContainerItemProxy */;
+		};
+		042E1EB12ABE747300C7DB0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042E1E8E2ABE747000C7DB0F /* AmericanAirlinesUIKit */;
+			targetProxy = 042E1EB02ABE747300C7DB0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		042E1E982ABE747000C7DB0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042E1E992ABE747000C7DB0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042E1E9D2ABE747200C7DB0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042E1E9E2ABE747200C7DB0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042E1EB72ABE747300C7DB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		042E1EB82ABE747300C7DB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042E1EBA2ABE747300C7DB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYBK57X933;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmericanAirlinesUIKit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "American Airlines CE";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techconsulting.AmericanAirlinesUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042E1EBB2ABE747300C7DB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYBK57X933;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmericanAirlinesUIKit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "American Airlines CE";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techconsulting.AmericanAirlinesUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		042E1EBD2ABE747300C7DB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYBK57X933;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techconsulting.AmericanAirlinesUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmericanAirlinesUIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmericanAirlinesUIKit";
+			};
+			name = Debug;
+		};
+		042E1EBE2ABE747300C7DB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYBK57X933;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techconsulting.AmericanAirlinesUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmericanAirlinesUIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmericanAirlinesUIKit";
+			};
+			name = Release;
+		};
+		042E1EC02ABE747300C7DB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYBK57X933;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techconsulting.AmericanAirlinesUIKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmericanAirlinesUIKit;
+			};
+			name = Debug;
+		};
+		042E1EC12ABE747300C7DB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYBK57X933;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techconsulting.AmericanAirlinesUIKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmericanAirlinesUIKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042E1E8A2ABE747000C7DB0F /* Build configuration list for PBXProject "AmericanAirlinesUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042E1EB72ABE747300C7DB0F /* Debug */,
+				042E1EB82ABE747300C7DB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042E1EB92ABE747300C7DB0F /* Build configuration list for PBXNativeTarget "AmericanAirlinesUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042E1EBA2ABE747300C7DB0F /* Debug */,
+				042E1EBB2ABE747300C7DB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042E1EBC2ABE747300C7DB0F /* Build configuration list for PBXNativeTarget "AmericanAirlinesUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042E1EBD2ABE747300C7DB0F /* Debug */,
+				042E1EBE2ABE747300C7DB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042E1EBF2ABE747300C7DB0F /* Build configuration list for PBXNativeTarget "AmericanAirlinesUIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042E1EC02ABE747300C7DB0F /* Debug */,
+				042E1EC12ABE747300C7DB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042E1E872ABE747000C7DB0F /* Project object */;
+}

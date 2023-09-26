@@ -26,6 +26,13 @@ class SearchTableViewCell: UITableViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
+    private let abstractLabel: UILabel = {
+        let label = UILabel()
+        label.textColor = .black
+        label.font = UIFont.systemFont(ofSize: 12)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
     
     // MARK: - Initializers
     
@@ -35,11 +42,10 @@ class SearchTableViewCell: UITableViewCell {
     }
     
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: aDecoder)
     }
     
     // MARK: - UI Setup
-    
     private func setupUI() {
         contentView.addSubview(titleLabel)
         contentView.addSubview(urlLabel)
@@ -59,8 +65,18 @@ class SearchTableViewCell: UITableViewCell {
     // MARK: - Public Methods
     
     func configure(with data: SearchResult) {
+        // Assuming you have UI elements like labels, etc. in your view
         
-            
-            // Update other UI elements with relevant data from the SearchResultData struct
-        }
+        //  labels with data from the SearchResult
+        
+        titleLabel.text = data.heading
+        urlLabel.text = data.abstractURL
+       abstractLabel.text = data.abstractText
+       
+        
+        
+        
+        // Handle other UI elements as needed
+    }
+
 }

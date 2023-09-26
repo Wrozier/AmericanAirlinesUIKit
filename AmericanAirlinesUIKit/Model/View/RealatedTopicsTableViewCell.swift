@@ -7,17 +7,20 @@
 
 import UIKit
 
-class RealatedTopicsTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+
+
+class RelatedTopicsTableViewCell: UITableViewCell {
+
+    // MARK: - Properties
+    static let identifier = "RelatedTopicsTableViewCell"
+
+    // MARK: - Outlets
+    @IBOutlet private weak var titleLabel: UILabel!
+
+    // MARK: - Public Methods
+    func configure(with relatedTopic: RelatedTopic) {
+        titleLabel.text = relatedTopic.text
+        // Configure other UI elements with relevant data from the RelatedTopic struct
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

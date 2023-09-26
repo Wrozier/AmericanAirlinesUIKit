@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+
+enum SearchError: Error {
+    case noData
+    case invalidUrl
+    case noResultsFound
+    case networkError
+    case otherError(String) 
+}

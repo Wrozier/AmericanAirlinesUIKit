@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BC76AB47-2ED9-48C0-9FA1-75E68EB528D2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70A0D067-1C63-48B5-A0E3-4FE46F726E95"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmericanAirlinesUIKit/Model/View/ViewModel/SearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "fetchSearchResultData(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "70A0D067-1C63-48B5-A0E3-4FE46F726E95 - e55c04abeeac93ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchViewModel.fetchSearchResultData(for: Swift.String) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Model/View/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "70A0D067-1C63-48B5-A0E3-4FE46F726E95 - e55c04abeeac936c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchViewModel.fetchSearchResultData(for: Swift.String) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Model/View/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABA730E4-0C0F-434C-80CC-7020903584F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmericanAirlinesUIKit/Model/View/ViewModel/SearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchSearchResultData(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ABA730E4-0C0F-434C-80CC-7020903584F3 - 25f1810604923d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchViewModel.fetchSearchResultData(for: Swift.String) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Model/View/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "ABA730E4-0C0F-434C-80CC-7020903584F3 - 25f18106049201b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchViewModel.fetchSearchResultData(for: Swift.String) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Model/View/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF01FD37-DC7B-486B-894C-951140091534"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmericanAirlinesUIKit/Model/View/ViewModel/SearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "fetchSearchResultData(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CF01FD37-DC7B-486B-894C-951140091534 - e55c04abeeac9087"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchViewModel.fetchSearchResultData(for: Swift.String) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Model/View/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "744">
+               </Location>
+               <Location
+                  uuid = "CF01FD37-DC7B-486B-894C-951140091534 - e55c04abeeac9045"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchViewModel.fetchSearchResultData(for: Swift.String) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Model/View/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "744">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "928A1593-9E34-4912-A96C-76D72351336D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmericanAirlinesUIKit/Service/SearchService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "fetchSearchResult(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "928A1593-9E34-4912-A96C-76D72351336D - 867c012e705b8f49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "968">
+               </Location>
+               <Location
+                  uuid = "928A1593-9E34-4912-A96C-76D72351336D - 867c012e705b8f49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "908">
+               </Location>
+               <Location
+                  uuid = "928A1593-9E34-4912-A96C-76D72351336D - 867c012e705b8f49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "888">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6CA9742-8F9B-4CCB-8B79-3BDD5A0FF850"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmericanAirlinesUIKit/Service/SearchService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchSearchResult(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E6CA9742-8F9B-4CCB-8B79-3BDD5A0FF850 - 867c012e705b8fa6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "696">
+               </Location>
+               <Location
+                  uuid = "E6CA9742-8F9B-4CCB-8B79-3BDD5A0FF850 - 867c012e705b8fa6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "E6CA9742-8F9B-4CCB-8B79-3BDD5A0FF850 - 867c012e705b8fa6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "644">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C80EB8B1-D8EF-4619-9784-F4EB6B8F3BAB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmericanAirlinesUIKit/Service/SearchService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "fetchSearchResult(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C80EB8B1-D8EF-4619-9784-F4EB6B8F3BAB - 867c012e705b908f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1756">
+               </Location>
+               <Location
+                  uuid = "C80EB8B1-D8EF-4619-9784-F4EB6B8F3BAB - 867c012e705b908f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1600">
+               </Location>
+               <Location
+                  uuid = "C80EB8B1-D8EF-4619-9784-F4EB6B8F3BAB - 867c012e705b908f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1540">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10741E88-8F1B-459F-9F14-0EE52DB70D19"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmericanAirlinesUIKit/Service/SearchService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "fetchSearchResult(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "10741E88-8F1B-459F-9F14-0EE52DB70D19 - 867c012e705b9051"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "2776">
+               </Location>
+               <Location
+                  uuid = "10741E88-8F1B-459F-9F14-0EE52DB70D19 - 867c012e705b9051"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "2480">
+               </Location>
+               <Location
+                  uuid = "10741E88-8F1B-459F-9F14-0EE52DB70D19 - 867c012e705b9051"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "2352">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0332DCE-24A4-4C30-8869-77090D1E9060"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmericanAirlinesUIKit/Service/SearchService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchSearchResult(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E0332DCE-24A4-4C30-8869-77090D1E9060 - 867c012e705b90ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1124">
+               </Location>
+               <Location
+                  uuid = "E0332DCE-24A4-4C30-8869-77090D1E9060 - 867c012e705b90ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmericanAirlinesUIKit.SearchService.fetchSearchResult(for: Swift.String, completion: (Swift.Result&lt;AmericanAirlinesUIKit.SearchResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmericanAirlinesUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/GQ/Desktop/AmericanAirlinesUIKit/AmericanAirlinesUIKit/Service/SearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1096">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE3D602A-AB4E-4110-B6A6-825E6C4B1F40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmericanAirlinesUIKit/Service/SearchService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchSearchResult(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

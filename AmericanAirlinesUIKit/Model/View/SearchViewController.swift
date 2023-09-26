@@ -34,7 +34,7 @@ class SearchResultViewController: UIViewController, UITableViewDelegate, UISearc
         // tableView.dataSource = self
         //searchBar.delegate = self
         searchController = UISearchController(searchResultsController: nil)
-        //searchController.searchResultsUpdater = self
+        searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.searchBar.placeholder = "Search"
         navigationItem.searchController = searchController
